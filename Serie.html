@@ -1,0 +1,405 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CineSphere</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/odometer.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <img src="img/preloader.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- preloader-end -->
+
+		<!-- Scroll-top -->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <!-- Scroll-top-end-->
+
+        <!-- header-area -->
+        <header>
+            <div id="sticky-header" class="menu-area transparent-header">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav show">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img src="img/logo/logo.png" alt="Logo">
+                                        </a>
+                                    </div>
+                                    <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                        <ul class="navigation">
+                                            <li class="menu-item-has-children"><a href="index.html">Home</a>
+                                              
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="Filme.html">Filme</a>
+                                              
+                                            </li>
+                                            <li class="active"><a href="Serie.html">Serie</a></li>
+                                            
+                                            <li><a href="blog.html">Blog</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+
+                            <!-- Mobile Menu  -->
+                            <div class="mobile-menu">
+                                <div class="close-btn"><i class="fas fa-times"></i></div>
+
+                                <nav class="menu-box">
+                                    <div class="nav-logo"><a href="index.html"><img src="img/logo/logo.png" alt="" title=""></a>
+                                    </div>
+                                    <div class="menu-outer">
+                                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                    </div>
+                                    <div class="social-links">
+                                        <ul class="clearfix">
+                                            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                            <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                                            <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                                            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-backdrop"></div>
+                            <!-- End Mobile Menu -->
+
+                            <!-- Modal Search -->
+                            <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <form>
+                                            <input type="text" placeholder="Search here...">
+                                            <button><i class="fas fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Search-end -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header-area-end -->
+
+
+        <!-- main-area -->
+        <main>
+
+            <!-- breadcrumb-area -->
+            <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/porcento.jpeg" img src="img/bg/porcento.jpeg" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumb-content">
+                                <h2 class="title">Conheça novas <span>Series</span></h2>
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Serie</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- breadcrumb-area-end -->
+
+            <!-- movie-area -->
+            <section class="movie-area movie-bg" data-background="img/bg/movie_bg.jpg">
+                <div class="container">
+                    <div class="row align-items-end mb-60">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center text-lg-left">
+                                <h2 class="title">Veja agora</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="movie-page-meta">
+                                <div class="tr-movie-menu-active text-center">
+                                    <button class="active" data-filter="*">Todos</button>
+                                    <button class="" data-filter=".cat-one">Drama</button>
+                                    <button class="" data-filter=".cat-two">Comedia</button>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row tr-movie-active">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/Toma.png" alt="">                                    
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-9.html">Pedaço de Mim</a></h5>
+                                        <span class="date">2024</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 47 min ep</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 4</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/Desalma.png" alt="">
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-10.html">Desalma</a></h5>
+                                        <span class="date">2020</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">4k</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 50 min ep</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 3.9</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/images/manha.png" alt="">                                    
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-11.html">Manhãs de Setembros</a></h5>
+                                        <span class="date">2021</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 25 min ep</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 4</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/Justica.png" alt="">                                    
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-12.html">Justiça 2</a></h5>
+                                        <span class="date">2024</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 60 min ep</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 4.1</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/outros.png" alt="">                                   
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-13.html">Os Outros</a></h5>
+                                        <span class="date">2023</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 30 min ep</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 4.2</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-two">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/onde.png" alt="">                                   
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-14.html">Aruanas</a></h5>
+                                        <span class="date">2019</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 45 min ep</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 4</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/segunda.png" alt="">                                    
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-15.html">Segunda chamada</a></h5>
+                                        <span class="date">2020</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 45 min</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 5</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
+                            <div class="movie-item movie-item-three mb-50">
+                                <div class="movie-poster">
+                                    <img src="img/poster/mau.PNG" alt="">                                    
+                                </div>
+                                <div class="movie-content">
+                                    <div class="top">
+                                        <h5 class="title"><a href="serie-detalhe-16.html">Maldivas</a></h5>
+                                        <span class="date">2022</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <ul>
+                                            <li><span class="quality">hd</span></li>
+                                            <li>
+                                                <span class="duration"><i class="far fa-clock"></i> 45 min</span>
+                                                <span class="rating"><i class="fas fa-thumbs-up"></i> 5</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- movie-area-end -->
+
+
+        </main>
+        <!-- main-area-end -->
+
+
+        <!-- footer-area -->
+        <footer>
+            <div class="footer-top-wrap">
+                <div class="container">
+                    <div class="footer-menu-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="footer-menu">
+                                    <nav>
+                                        <ul class="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="index-2.html">Filme</a></li>
+                                            <li><a href="tv-show.html">Serie</a></li>                                            
+                                        </ul>
+                                        <div class="footer-search">
+                                            <form action="#">
+                                                <input type="text" placeholder="Find Favorite Movie">
+                                                <button><i class="fas fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </footer>
+        <!-- footer-area-end -->
+
+
+		<!-- JS here -->
+        <script src="js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.odometer.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
